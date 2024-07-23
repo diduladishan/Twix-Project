@@ -1,5 +1,4 @@
 const CarouselCard = ({ img, title, bid }) => {
-  // orbitron saira jura
   return (
     <div className="flex justify-center">
       <div className="bg-[#100E0D]  w-fit p-5 rounded-lg font-pilat m-2 hover:-translate-y-1 transition-transform duration-500 ease-out">

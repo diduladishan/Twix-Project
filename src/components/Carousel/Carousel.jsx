@@ -4,12 +4,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Carousel.css";
 
-import CarouselCard from "./CarouselCard";
-import twixOne from "../assets/images/twix-one.png";
-import twixTwo from "../assets/images/twix-two.png";
-import twixThree from "../assets/images/twix-three.png";
-import twixFour from "../assets/images/twix-four.png";
-import twixFive from "../assets/images/twix-five.png";
+import CarouselCard from "../CarouselCard";
+import twixOne from "../../assets/images/twix-one.png";
+import twixTwo from "../../assets/images/twix-two.png";
+import twixThree from "../../assets/images/twix-three.png";
+import twixFour from "../../assets/images/twix-four.png";
+import twixFive from "../../assets/images/twix-five.png";
 
 const data = [
   {
