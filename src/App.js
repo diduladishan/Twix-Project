@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
     <div className="App">
-      <p className="text-[33px] text-red-500">Hello World!</p>
+      <Carousel />
     </div>
   );
 }
