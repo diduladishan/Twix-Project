@@ -1,0 +1,29 @@
+.photoDiv {
+  background-image: url("../../assets/images/heroSection/hero-background.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.characterContainer {
+  margin: 140px;
+
+  z-index: 2;
+}
+
+.chocoCharacter {
+  width: auto;
+  height: auto;
+}
+
+.chocoBarBottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
