@@ -75,8 +75,7 @@ const Carousel = () => {
   };
 
   return (
-    <div>
-      <div className="w-10 h-10"></div>
+    <div className="my-10">
       <Slider {...settings}>
         {data.map(({ img, title, bid }, index) => (
           <CarouselCard img={img} title={title} bid={bid} />
