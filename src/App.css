@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.lucky-guy-font {
+  font-family: "Luckiest Guy", cursive;
+}

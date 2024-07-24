@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar/navbar";
 
 function App() {
   return (
-    <div className="App bg-gradient-to-b from-[#6A2B1F] to-[#2F0C06]">
+    <div className="App">
       <Navbar />
       {/* <Carousel />
       <HowToBuy /> */}
