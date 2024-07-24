@@ -11,8 +11,8 @@ const Navbar = () => {
   return (
     <nav className="navbar-background p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-lg text-[64px] lucky-guy-font">
-          $TWIX
+        <div className="text-white text-[64px] lucky-guy-font">
+          <p>$TWIX</p>
         </div>
 
         <div className="hidden md:flex justify-center flex-grow space-x-20 lucky-guy-font text-[40px]">
