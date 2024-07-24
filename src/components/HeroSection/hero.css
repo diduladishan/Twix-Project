@@ -10,19 +10,20 @@
 }
 
 .characterContainer {
-  margin: 140px;
-
+  /* padding-top: 200px; */
+  margin: 200px;
   z-index: 2;
 }
 
 .chocoCharacter {
-  width: auto;
-  height: auto;
+  margin-top: 250px;
+  width: 95%;
+  height: 95%;
 }
 
 .chocoBarBottom {
   position: absolute;
-  bottom: 0;
+  bottom: -130px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;

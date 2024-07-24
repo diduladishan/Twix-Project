@@ -7,13 +7,13 @@ import "./hero.css";
 
 function Hero() {
   return (
-    <div className="photoDiv">
-      {/* <div className="characterContainer">
+    <div className="photoDiv mt-[90px]">
+      <div className="characterContainer">
         <img src={chocoCharacterLeft} alt="Choco" className="chocoCharacter" />
       </div>
       <div className="characterContainer">
         <img src={chocoCharacterRight} alt="Choco" className="chocoCharacter" />
-      </div> */}
+      </div>
       <img src={chocoBarBottom} alt="Choco" className="chocoBarBottom" />
     </div>
   );
