@@ -5,7 +5,7 @@ import HowToBuy from "./components/HowToBuy";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gradient-to-b from-[#6A2B1F] to-[#2F0C06]">
       <Carousel />
       <HowToBuy />
     </div>

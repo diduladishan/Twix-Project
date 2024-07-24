@@ -1,5 +1,9 @@
+import { useEffect } from "react";
+import AOS from "aos";
+
 import Instruction from "./Instruction";
 import howToBuy from "../assets/images/how-to-buy.png";
+import "aos/dist/aos.css";
 
 const data = [
   {
@@ -28,17 +32,26 @@ const data = [
 ];
 
 const HowToBuy = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
-    <div className="bg-gradient-to-b from-[#6A2B1F] to-[#2F0C06] text-white py-12 max-w-screen-xl mx-auto">
-      <h1 className="font-pilat uppercase font-black lg:text-4xl text-3xl md:text-right md:pr-12 ">
+    <div className="text-white py-12 max-w-screen-xl mx-auto">
+      <h1
+        className="font-pilat uppercase font-black lg:text-4xl text-3xl md:text-right md:pr-12"
+        data-aos="fade-left"
+      >
         how to buy
       </h1>
       <div className="flex flex-col md:flex-row mt-8 xl:mt-0 items-center">
-        <div className="w-3/5 md:w-2/5">
+        <div className="w-3/5 md:w-2/5" data-aos="zoom-in">
           <img
             src={howToBuy}
             alt="How to buy"
-            className="w-full h-auto md:-translate-y-7"
+            className="w-full h-auto md:-translate-y-7 animate-light-bounce"
           />
         </div>
         <div className="md:text-right w-4/5 md:w-3/5 md:pr-12 mt-8 md:mt-0">
