@@ -15,6 +15,7 @@ function Hero() {
         <img src={chocoCharacterRight} alt="Choco" className="chocoCharacter" />
       </div>
       <img src={chocoBarBottom} alt="Choco" className="chocoBarBottom" />
+      <img src={twixLogo} alt="Choco" className="twixLogo" />
     </div>
   );
 }

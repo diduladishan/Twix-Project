@@ -10,7 +10,6 @@
 }
 
 .characterContainer {
-  /* padding-top: 200px; */
   margin: 200px;
   z-index: 2;
 }
@@ -27,4 +26,11 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+}
+
+.twixLogo {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
 }
