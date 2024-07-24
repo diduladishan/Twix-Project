@@ -18,7 +18,7 @@ const Instruction = ({ number, title, content }) => {
       data-aos-delay="200"
     >
       <p className="text-[#FE8C00] font-bold text-xs animate-pulse">{number}</p>
-      <h2 className="font-bold text-2xl lg:text-3xl group-hover:text-3xl lg:group-hover:text-4xl transition-all duration-500">
+      <h2 className="font-bold text-2xl lg:text-3xl group-hover:text-3xl lg:group-hover:text-4xl transition-all duration-500 h-9">
         {title}
       </h2>
       <p className="font-medium text-xs lg:text-sm">{content}</p>
