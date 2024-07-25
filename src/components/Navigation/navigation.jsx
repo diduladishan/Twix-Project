@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./navbar.css"; // Import the CSS file for custom styles
+import "./navigation.css";
 
-const Navbar = () => {
+const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -19,7 +19,6 @@ const Navbar = () => {
           <a href="/buy-now" className="text-white hover:text-gray-400">
             Buy Now
           </a>
-
           <a href="/buy-now" className="text-white hover:text-gray-400">
             How to Buy
           </a>
@@ -70,4 +69,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation;
