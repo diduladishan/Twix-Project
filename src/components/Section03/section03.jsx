@@ -9,7 +9,7 @@ function Section03() {
           fuck it we ball
         </p>
         <p className="text-[75px] Poetsen-font text-[#6A2B1F] text-left">
-          0/0 no tax pumpfun fair launch 5% burned on launch come join the vc
+          0/0 no tax pumpfun fair launch 5% burned on launch come join the vc.
         </p>
       </div>
     </div>
