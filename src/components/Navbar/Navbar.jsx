@@ -16,10 +16,19 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex justify-center flex-grow space-x-20 lucky-guy-font text-[40px]">
-          <a className="text-white hover:text-gray-400">Buy Now</a>
-          <a className="text-white hover:text-gray-400">How to Buy</a>
-          <a className="text-white hover:text-gray-400">Contact</a>
-          <a className="text-white hover:text-gray-400">About</a>
+          <a href="/buy-now" className="text-white hover:text-gray-400">
+            Buy Now
+          </a>
+
+          <a href="/buy-now" className="text-white hover:text-gray-400">
+            How to Buy
+          </a>
+          <a href="/buy-now" className="text-white hover:text-gray-400">
+            Contact
+          </a>
+          <a href="/buy-now" className="text-white hover:text-gray-400">
+            About
+          </a>
         </div>
         <div className="md:hidden">
           <button
@@ -44,10 +53,18 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`md:hidden ${isOpen ? "block" : "hidden"}`}>
-        <a className="block text-white hover:text-gray-400 p-2">Buy Now</a>
-        <a className="block text-white hover:text-gray-400 p-2">How to Buy</a>
-        <a className="block text-white hover:text-gray-400 p-2">Contact</a>
-        <a className="block text-white hover:text-gray-400 p-2">About</a>
+        <a href="/buy-now" className="block text-white hover:text-gray-400 p-2">
+          Buy Now
+        </a>
+        <a href="/buy-now" className="block text-white hover:text-gray-400 p-2">
+          How to Buy
+        </a>
+        <a href="/buy-now" className="block text-white hover:text-gray-400 p-2">
+          Contact
+        </a>
+        <a href="/buy-now" className="block text-white hover:text-gray-400 p-2">
+          About
+        </a>
       </div>
     </nav>
   );
