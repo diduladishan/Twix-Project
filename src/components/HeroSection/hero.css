@@ -1,0 +1,36 @@
+.photoDiv {
+  background-image: url("../../assets/images/heroSection/hero-background.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.characterContainer {
+  margin: 200px;
+  z-index: 2;
+}
+
+.chocoCharacter {
+  margin-top: 250px;
+  width: 95%;
+  height: 95%;
+}
+
+.chocoBarBottom {
+  position: absolute;
+  bottom: -130px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.twixLogo {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}

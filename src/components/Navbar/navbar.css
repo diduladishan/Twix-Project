@@ -3,5 +3,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 320px; /* Set the height to match the height of your image */
+  height: 320px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
 }
