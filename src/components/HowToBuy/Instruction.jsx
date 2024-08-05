@@ -17,13 +17,17 @@ const Instruction = ({ number, title, content }) => {
       data-aos-anchor-placement="bottom-bottom"
       data-aos-delay="200"
     >
-      <p className="text-[#FE8C00] font-bold text-xs animate-pulse">{number}</p>
+      <p className="text-[#FE8C00] font-bold text-xs lg:text-sm xl:text-base 2xl:text-lg animate-pulse">
+        {number}
+      </p>
       <div className="flex justify-center md:justify-end">
-        <h2 className="font-bold text-2xl lg:text-3xl hover:text-3xl lg:hover:text-4xl transition-all duration-500 h-9 w-fit">
+        <h2 className="font-bold text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl hover:scale-125 transition-all duration-500 w-fit md:origin-right">
           {title}
         </h2>
       </div>
-      <p className="font-medium text-xs lg:text-sm">{content}</p>
+      <p className="font-medium text-xs lg:text-sm xl:text-base 2xl:text-lg">
+        {content}
+      </p>
     </div>
   );
 };
