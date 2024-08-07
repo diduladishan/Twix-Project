@@ -2,7 +2,7 @@
   background-image: url("../../assets/images/heroSection/hero-background.png");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -10,14 +10,16 @@
 }
 
 .characterContainer {
-  margin: 200px;
+  /* margin: 200px; */
+  margin-left: 40px;
+  margin-right: 40px;
   z-index: 2;
 }
 
 .chocoCharacter {
   margin-top: 250px;
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
 }
 
 .chocoBarBottom {
@@ -30,7 +32,7 @@
 
 .twixLogo {
   position: absolute;
-  bottom: 60px;
+  /* bottom: 60px; */
   left: 50%;
   transform: translateX(-50%);
 }

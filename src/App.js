@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Section03 />
-      {/* <Carousel /> */}
+      {/* <Section03 />
+
       <HowToBuy />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

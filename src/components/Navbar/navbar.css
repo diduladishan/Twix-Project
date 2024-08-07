@@ -1,9 +1,9 @@
 .navbar-background {
-  background-image: url("../../assets/images/navbar/menuBackground.png");
+  background-image: url("../../assets/images/navbar/menuBackground2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 320px;
+  height: 220px;
 
   position: fixed;
   top: 0;
