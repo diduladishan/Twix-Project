@@ -11,14 +11,12 @@ import ThreeCharacters from "./components/ThreeCharacters/ThreeCharacters";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
-      <Hero /> */}
-
-      {/* <Section03 /> */}
-
-      {/* <HowToBuy /> */}
+      <Navbar />
+      <Hero />
+      <Section03 />
       <ThreeCharacters />
-      {/* <Footer /> */}
+      <HowToBuy />
+      <Footer />
     </div>
   );
 }
