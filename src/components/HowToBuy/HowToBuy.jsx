@@ -44,15 +44,21 @@ const HowToBuy = () => {
 
   return (
     <section>
-      <img src={bgTop} alt="Chocolate background top" />
-      <div className="text-white mx-auto bg-gradient-to-b from-[#6A2B1F] to-[#2F0C06]">
+      <div className="w-full translate-y-1">
+        <img
+          src={bgTop}
+          alt="Chocolate background top"
+          className="min-w-full"
+        />
+      </div>
+      <div className="text-white mx-auto bg-gradient-to-b from-[#6A2B1F] to-[#2F0C06] pt-10">
         <h1
-          className="font-pilat uppercase font-black lg:text-4xl text-3xl md:text-right md:pr-12"
+          className="font-pilat uppercase font-black text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl md:text-right md:pr-12"
           data-aos="fade-left"
         >
           how to buy
         </h1>
-        <div className="flex flex-col md:flex-row mt-8 xl:mt-0 items-center">
+        <div className="flex flex-col md:flex-row mt-8 xl:mt-0 mb-10 items-center">
           <div className="w-3/5 md:w-2/5 relative" data-aos="zoom-in">
             <img
               src={twixCharacter}
@@ -81,7 +87,13 @@ const HowToBuy = () => {
             ))}
           </div>
         </div>
-        <img src={bgBottom} alt="Chocolate background bottom" />
+        <div className="w-full translate-y-1">
+          <img
+            src={bgBottom}
+            alt="Chocolate background bottom"
+            className="min-w-full"
+          />
+        </div>
       </div>
     </section>
   );
