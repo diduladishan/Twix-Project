@@ -5,13 +5,16 @@ import HowToBuy from "./components/HowToBuy/HowToBuy";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/HeroSection/hero";
+import Section03 from "./components/Section03/section03";
+import ThreeCharacters from "./components/ThreeCharacters/ThreeCharacters";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      {/* <Carousel /> */}
+      <Section03 />
+      <ThreeCharacters />
       <HowToBuy />
       <Footer />
     </div>

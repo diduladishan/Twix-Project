@@ -1,0 +1,10 @@
+.section03-background {
+  background-image: url("../../assets/images/Section03/section03-background.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
