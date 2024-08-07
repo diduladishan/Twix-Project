@@ -3,7 +3,7 @@ import "./App.css";
 import Carousel from "./components/Carousel/Carousel";
 import HowToBuy from "./components/HowToBuy/HowToBuy";
 import Footer from "./components/Footer/Footer";
-import Navbar from "./components/Navbar/navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/HeroSection/hero";
 
 function App() {

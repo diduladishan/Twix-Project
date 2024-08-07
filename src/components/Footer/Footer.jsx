@@ -31,7 +31,7 @@ const Footer = () => {
   return (
     <section className="text-white pb-10 bg-[#6A2B1F]">
       <div data-aos="fade-down">
-        <h1 className="text-8xl md:text-9xl xl:text-[150px] font-permanent-marker py-7 drop-shadow-[10px_10px_5px_rgb(0,0,0)] animate-light-bounce">
+        <h1 className="text-7xl md:text-8xl xl:text-9xl 2xl:text-[150px] font-permanent-marker py-7 drop-shadow-[10px_10px_5px_rgb(0,0,0)] animate-light-bounce">
           $TWIX
         </h1>
       </div>
