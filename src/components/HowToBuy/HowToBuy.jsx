@@ -7,30 +7,27 @@ import coinsOne from "../../assets/images/HowToBuy/coins-one.png";
 import coinsTwo from "../../assets/images/HowToBuy/coins-two.png";
 import bgTop from "../../assets/images/HowToBuy/bg-top.png";
 import bgBottom from "../../assets/images/HowToBuy/bg-bottom.png";
+import bgCharacter from "../../assets/images/HowToBuy/bg-character.png";
 import "aos/dist/aos.css";
 
 const data = [
   {
-    number: "01",
-    title: "Create a Wallet",
+    title: "01",
     content:
       "Download Phantom or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to phantom app",
   },
   {
-    number: "02",
-    title: "Get some SOL",
+    title: "02",
     content:
       "Have SOL in your wallet to switch to $WOLF. If you dont have any SOL, you can buy SOL from an exchange or cross chain swap and send it to your wallet.",
   },
   {
-    number: "03",
-    title: "Go to Raydium",
+    title: "03",
     content:
       "Connect to Raydium. Go to raydium.io in google chrome or on the browser inside your Phantom app. Connect your wallet. Paste the $WOLF token address into Raydium and confirm the swap. When Phantom prompts you for a wallet signature, sign.",
   },
   {
-    number: "04",
-    title: "Swap",
+    title: "04",
     content: "Swith SOL for $TWIX",
   },
 ];
@@ -44,55 +41,39 @@ const HowToBuy = () => {
 
   return (
     <section>
-      <div className="w-full translate-y-1">
-        <img
-          src={bgTop}
-          alt="Chocolate background top"
-          className="min-w-full"
-        />
-      </div>
-      <div className="text-white mx-auto bg-gradient-to-b from-[#6A2B1F] to-[#2F0C06] pt-10">
-        <h1
-          className="font-pilat uppercase font-black text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl md:text-right md:pr-12"
-          data-aos="fade-left"
-        >
-          how to buy
-        </h1>
-        <div className="flex flex-col md:flex-row mt-8 xl:mt-0 mb-10 items-center">
-          <div className="w-3/5 md:w-2/5 relative" data-aos="zoom-in">
+      <div className="text-white mx-auto bg-[#B78844]">
+        <div className="flex flex-col md:flex-row items-center md:items-stretch">
+          <div
+            className="w-3/5 md:w-2/5 relative z-20 flex justify-center items-center lg:py-[200px] md:ms-[2vw]"
+            data-aos="zoom-in"
+          >
             <img
               src={twixCharacter}
               alt="How to buy"
-              className="w-full h-auto md:-translate-y-7"
+              className="w-full h-auto md:scale-150 md:origin-left"
             />
             <img
               src={coinsOne}
               alt="How to buy"
-              className="w-1/2 absolute bottom-[28%] -left-[2%] md:bottom-[35%] md:left-[2%] lg:bottom-[32%] animate-light-bounce"
+              className="w-1/2 md:w-[75%] absolute left-0 animate-light-bounce md:scale-150 md:origin-left mt-[6%]"
             />
             <img
               src={coinsTwo}
               alt="How to buy"
-              className="absolute bottom-[5%] -right-[13%] md:bottom-[12%] md:-right-[12%] lg:bottom-[8%] animate-light-bounce"
+              className="w-1/2 md:w-[75%] absolute right-0 md:-right-[43%] my-auto animate-light-bounce md:scale-150 md:origin-left mt-[50%] md:mt-[72%]"
             />
           </div>
-          <div className="md:text-right w-4/5 md:w-3/5 md:pr-12 mt-8 md:mt-0">
-            {data.map(({ number, title, content }, index) => (
-              <Instruction
-                key={index}
-                number={number}
-                title={title}
-                content={content}
-              />
-            ))}
+          <div className="relative z-10 md:w-3/5">
+            <div
+              className="absolute w-full h-full bg-contain bg-right bg-no-repeat -z-10"
+              style={{ backgroundImage: `url(${bgCharacter})` }}
+            ></div>
+            <div className="bg-black/50 backdrop-blur-sm h-full md:me-[4vw] flex flex-col justify-center md:ps-[30%] md:py-28 lg:py-40">
+              {data.map(({ title, content }, index) => (
+                <Instruction key={index} title={title} content={content} />
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="w-full translate-y-1">
-          <img
-            src={bgBottom}
-            alt="Chocolate background bottom"
-            className="min-w-full"
-          />
         </div>
       </div>
     </section>
