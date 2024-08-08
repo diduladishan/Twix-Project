@@ -3,7 +3,7 @@ import AOS from "aos";
 
 import "aos/dist/aos.css";
 
-const Instruction = ({ number, title, content }) => {
+const Instruction = ({ title, content }) => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -12,20 +12,17 @@ const Instruction = ({ number, title, content }) => {
 
   return (
     <div
-      className="font-montserrat uppercase mt-5 md:mt-0 cursor-default"
-      data-aos="fade-left"
+      className="font-montserrat uppercase py-3 md:pt-0 cursor-default px-[5vw] md:px-0 md:pe-[8vw]"
+      // data-aos="fade-left"
       data-aos-anchor-placement="bottom-bottom"
       data-aos-delay="200"
     >
-      <p className="text-[#FE8C00] font-bold text-xs lg:text-sm xl:text-base 2xl:text-lg animate-pulse">
-        {number}
-      </p>
       <div className="flex justify-center md:justify-end">
-        <h2 className="font-bold text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl hover:scale-125 transition-all duration-500 w-fit md:origin-right">
+        <h2 className="font-bold text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl hover:scale-125 transition-all duration-500 w-fit md:origin-right">
           {title}
         </h2>
       </div>
-      <p className="font-medium text-xs lg:text-sm xl:text-base 2xl:text-lg">
+      <p className="font-medium text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl md:text-right">
         {content}
       </p>
     </div>
