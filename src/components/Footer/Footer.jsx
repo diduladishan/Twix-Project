@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 
-import bgTop from "../../assets/images/HowToBuy/bg-top.png";
+import bgTop from "../../assets/images/Footer/bg-top.png";
 import telegram from "../../assets/images/Footer/telegram.png";
 import x from "../../assets/images/Footer/x.png";
 import pill from "../../assets/images/Footer/pill.png";
@@ -31,7 +31,7 @@ const Footer = () => {
 
   return (
     <section className="text-white pb-10 bg-gradient-to-b from-[#6A2B1F] to-[#2F0C06] relative">
-      <div className="w-full absolute top-0 -translate-y-[35%] z-20">
+      <div className="w-full absolute top-0 z-20">
         <img src={bgTop} alt="A layer of chocolate" className="w-full" />
       </div>
       <div
