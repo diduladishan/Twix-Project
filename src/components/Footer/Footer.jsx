@@ -31,7 +31,7 @@ const Footer = () => {
 
   return (
     <section className="text-white pb-10 bg-gradient-to-b from-[#6A2B1F] to-[#2F0C06] relative">
-      <div className="w-full absolute top-0 z-20">
+      <div className="w-full absolute -top-[1px] z-20">
         <img src={bgTop} alt="A layer of chocolate" className="w-full" />
       </div>
       <div

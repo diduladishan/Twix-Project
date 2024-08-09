@@ -40,7 +40,7 @@ const HowToBuy = () => {
 
   return (
     <section className="relative">
-      <div className="w-full absolute top-0 z-20">
+      <div className="w-full absolute -top-[1px] z-20">
         <img src={bgTop} alt="A layer of chocolate" className="w-full" />
       </div>
       <div className="text-white mx-auto bg-[#B78844] pt-[20%] md:pt-0">

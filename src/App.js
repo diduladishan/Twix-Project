@@ -7,13 +7,16 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/HeroSection/hero";
 import Section03 from "./components/Section03/section03";
 import ThreeCharacters from "./components/ThreeCharacters/ThreeCharacters";
+import Banner from "./components/Banner/Banner";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
-      <Section03 />
+      {/* <Section03 /> */}
+      <div className="w-full h-96"></div>
+      <Banner />
       <ThreeCharacters />
       <HowToBuy />
       <Footer />

@@ -13,7 +13,7 @@ const Instruction = ({ title, content }) => {
   return (
     <div
       className="font-montserrat uppercase py-3 md:pt-0 cursor-default px-[5vw] md:px-0 md:pe-[8vw]"
-      // data-aos="fade-left"
+      data-aos="fade-left"
       data-aos-anchor-placement="bottom-bottom"
       data-aos-delay="200"
     >
