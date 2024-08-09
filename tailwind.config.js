@@ -4,20 +4,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        pilat: [
-          "Pilat Extended",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          "Segoe UI",
-          "Roboto",
-          "Oxygen",
-          "Ubuntu",
-          "Cantarell",
-          "Fira Sans",
-          "Droid Sans",
-          "Helvetica Neue",
-          "sans-serif",
-        ],
         montserrat: [
           "Montserrat",
           "-apple-system",
@@ -32,8 +18,8 @@ module.exports = {
           "Helvetica Neue",
           "sans-serif",
         ],
-        "permanent-marker": [
-          "Permanent Marker",
+        knewave: [
+          "Knewave",
           "-apple-system",
           "BlinkMacSystemFont",
           "Segoe UI",

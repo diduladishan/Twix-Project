@@ -2,24 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-
-@font-face {
-  font-family: "Pilat Extended";
-  src: url("./assets/fonts/pilat-extended-light.woff2") format("woff2"),
-    url("./assets/fonts/pilat-extended-light.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Pilat Extended";
-  src: url("./assets/fonts/pilat-extended-black.woff2") format("woff2"),
-    url("./assets/fonts/pilat-extended-black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Knewave&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
   margin: 0;

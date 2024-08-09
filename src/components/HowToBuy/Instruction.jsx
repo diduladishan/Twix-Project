@@ -22,7 +22,7 @@ const Instruction = ({ title, content }) => {
           {title}
         </h2>
       </div>
-      <p className="font-medium text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl md:text-right">
+      <p className="font-medium text-[10px] sm:text-xs md:text-sm lg:text-lg xl:text-xl 2xl:text-2xl md:text-right">
         {content}
       </p>
     </div>
