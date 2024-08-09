@@ -1,23 +1,24 @@
 import { useEffect } from "react";
 import AOS from "aos";
 
-import instagram from "../../assets/images/Footer/instagram.png";
-import whatsapp from "../../assets/images/Footer/whatsapp.png";
-import facebook from "../../assets/images/Footer/facebook.png";
+import bgTop from "../../assets/images/Footer/bg-top.png";
+import telegram from "../../assets/images/Footer/telegram.png";
+import x from "../../assets/images/Footer/x.png";
+import pill from "../../assets/images/Footer/pill.png";
 import "aos/dist/aos.css";
 
 const data = [
   {
-    img: instagram,
-    name: "instagram icon",
+    img: telegram,
+    name: "telegram icon",
   },
   {
-    img: whatsapp,
-    name: "whatsapp icon",
+    img: x,
+    name: "x icon",
   },
   {
-    img: facebook,
-    name: "facebook icon",
+    img: pill,
+    name: "pill icon",
   },
 ];
 
@@ -29,13 +30,17 @@ const Footer = () => {
   }, []);
 
   return (
-    <section className="text-white pb-10 bg-[#6A2B1F]">
-      <div data-aos="fade-down">
-        <h1 className="text-7xl md:text-8xl xl:text-9xl 2xl:text-[150px] font-permanent-marker py-7 drop-shadow-[10px_10px_5px_rgb(0,0,0)] animate-light-bounce">
-          $TWIX
-        </h1>
+    <section className="text-white pb-10 bg-gradient-to-b from-[#6A2B1F] to-[#2F0C06] relative">
+      <div className="w-full absolute -top-[1px] z-20">
+        <img src={bgTop} alt="A layer of chocolate" className="w-full" />
       </div>
-      <ul className="flex justify-center gap-10">
+      <div
+        data-aos="fade-down"
+        className="text-7xl md:text-8xl xl:text-9xl 2xl:text-[150px] font-knewave py-7 drop-shadow-[10px_10px_5px_rgb(0,0,0)] pt-[23%]"
+      >
+        <h1>$TWIX</h1>
+      </div>
+      <ul className="flex justify-center gap-4 md:gap-6">
         {data.map(({ img, name }, index) => (
           <li
             key={index}
@@ -45,7 +50,7 @@ const Footer = () => {
             <img
               src={img}
               alt={name}
-              className="w-10 md:w-12 xl:w-14 hover:cursor-pointer hover:scale-150 md:hover:scale-125 transition-transform duration-300"
+              className="w-5 md:w-7 xl:w-9 hover:cursor-pointer hover:scale-150 md:hover:scale-125 transition-transform duration-300"
             />
           </li>
         ))}

@@ -2,11 +2,10 @@ import { useEffect } from "react";
 import AOS from "aos";
 
 import Instruction from "./Instruction";
+import bgTop from "../../assets/images/HowToBuy/bg-top.png";
 import twixCharacter from "../../assets/images/HowToBuy/twix-character.png";
 import coinsOne from "../../assets/images/HowToBuy/coins-one.png";
 import coinsTwo from "../../assets/images/HowToBuy/coins-two.png";
-import bgTop from "../../assets/images/HowToBuy/bg-top.png";
-import bgBottom from "../../assets/images/HowToBuy/bg-bottom.png";
 import bgCharacter from "../../assets/images/HowToBuy/bg-character.png";
 import "aos/dist/aos.css";
 
@@ -40,11 +39,14 @@ const HowToBuy = () => {
   }, []);
 
   return (
-    <section>
-      <div className="text-white mx-auto bg-[#B78844]">
+    <section className="relative">
+      <div className="w-full absolute -top-[1px] z-20">
+        <img src={bgTop} alt="A layer of chocolate" className="w-full" />
+      </div>
+      <div className="text-white mx-auto bg-[#B78844] pt-[20%] md:pt-0">
         <div className="flex flex-col md:flex-row items-center md:items-stretch">
           <div
-            className="w-3/5 md:w-2/5 relative z-20 flex justify-center items-center lg:py-[200px] md:ms-[2vw]"
+            className="w-3/5 md:w-[30%] relative z-20 flex justify-center items-center lg:py-[200px] md:ms-[2vw] md:mt-[15%]"
             data-aos="zoom-in"
           >
             <img
@@ -63,12 +65,12 @@ const HowToBuy = () => {
               className="w-1/2 md:w-[75%] absolute right-0 md:-right-[43%] my-auto animate-light-bounce md:scale-150 md:origin-left mt-[50%] md:mt-[72%]"
             />
           </div>
-          <div className="relative z-10 md:w-3/5">
+          <div className="relative z-10 md:w-[70%]">
             <div
               className="absolute w-full h-full bg-contain bg-right bg-no-repeat -z-10"
               style={{ backgroundImage: `url(${bgCharacter})` }}
             ></div>
-            <div className="bg-black/50 backdrop-blur-sm h-full md:me-[4vw] flex flex-col justify-center md:ps-[30%] md:py-28 lg:py-40">
+            <div className="bg-black/50 backdrop-blur-sm h-full md:me-[4vw] flex flex-col justify-center md:ps-[20%] md:pt-[30%] pb-[8%] md:pb-[14%]">
               {data.map(({ title, content }, index) => (
                 <Instruction key={index} title={title} content={content} />
               ))}

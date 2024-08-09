@@ -1,7 +1,7 @@
 const CarouselCard = ({ img, title, bid }) => {
   return (
     <div className="flex justify-center">
-      <div className="bg-[#100E0D]  w-fit p-5 rounded-lg font-pilat hover:-translate-y-1 transition-transform duration-500 ease-out m-2">
+      <div className="bg-[#100E0D]  w-fit p-5 rounded-lg hover:-translate-y-1 transition-transform duration-500 ease-out m-2">
         <img src={img} alt={title} className="w-48 h-auto" />
         <div className="text-left mt-4 text-white uppercase text-sm leading-6">
           <p>{title}</p>
