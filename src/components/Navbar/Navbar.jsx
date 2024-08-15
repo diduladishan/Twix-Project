@@ -22,11 +22,13 @@ const Navbar = () => {
           <a href="#" className="text-white hover:text-gray-400">
             How to Buy
           </a>
-          <a href="#" className="text-white hover:text-gray-400">
-            Contact
-          </a>
-          <a href="#" className="text-white hover:text-gray-400">
-            About
+          <a
+            href="https://solsea.io/c/668aa9295cb3574cdbe
+02cb9
+"
+            className="text-white hover:text-gray-400"
+          >
+            Collection
           </a>
         </div>
         <div className="md:hidden">
@@ -58,11 +60,12 @@ const Navbar = () => {
         <a href="#" className="block text-white hover:text-gray-400 p-2">
           How to Buy
         </a>
-        <a href="#" className="block text-white hover:text-gray-400 p-2">
-          Contact
-        </a>
-        <a href="#" className="block text-white hover:text-gray-400 p-2">
-          About
+        <a
+          href="https://solsea.io/c/668aa9295cb3574cdbe
+02cb9"
+          className="block text-white hover:text-gray-400 p-2"
+        >
+          Collection
         </a>
       </div>
     </nav>

@@ -11,10 +11,21 @@ import Banner from "./components/Banner/Banner";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <Section03 />
+    <div className="App overflow-x-hidden">
+      <div>
+        <div className="relative z-10">
+          <Navbar />
+        </div>
+
+        <div className="relative z-5 mt-[-210px]">
+          <Hero />
+        </div>
+
+        <div className="relative z-0">
+          <Section03 />
+        </div>
+      </div>
+
       <Banner />
       <ThreeCharacters />
       <HowToBuy />
