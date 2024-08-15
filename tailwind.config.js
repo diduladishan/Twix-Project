@@ -36,10 +36,10 @@ module.exports = {
       keyframes: {
         "light-bounce": {
           "0%, 100%": {
-            transform: "translateY(-1%)",
+            transform: "translateY(0)",
           },
           "50%": {
-            transform: "translateY(0)",
+            transform: "translateY(-1%)",
           },
         },
       },

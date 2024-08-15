@@ -70,7 +70,7 @@ const HowToBuy = () => {
               className="absolute w-full h-full bg-contain bg-right bg-no-repeat -z-10"
               style={{ backgroundImage: `url(${bgCharacter})` }}
             ></div>
-            <div className="bg-black/50 backdrop-blur-sm h-full md:me-[4vw] flex flex-col justify-center md:ps-[20%] md:pt-[30%] pb-[8%] md:pb-[14%]">
+            <div className="bg-black/60 backdrop-blur-sm backdrop-brightness-125 h-full md:me-[4vw] flex flex-col justify-center md:ps-[20%] md:pt-[30%] pb-[8%] md:pb-[14%]">
               {data.map(({ title, content }, index) => (
                 <Instruction key={index} title={title} content={content} />
               ))}

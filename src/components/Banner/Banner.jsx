@@ -3,7 +3,7 @@ import banner from "../../assets/images/Banner/banner.png";
 
 const Banner = () => {
   return (
-    <section className="relative">
+    <section className="relative mt-[6%]">
       <div className="w-full absolute top-0 z-20 -translate-y-[62%]">
         <img src={bgTop} alt="A layer of chocolate" className="w-full" />
       </div>

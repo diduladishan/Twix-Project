@@ -12,27 +12,35 @@ function Hero() {
   return (
     <div className="photoDiv">
       <div className="characterContainer">
-        <img src={chocoCharacterLeft} alt="Choco" className="chocoCharacter" />
+        <img
+          src={chocoCharacterLeft}
+          alt="Choco"
+          className="chocoCharacter animate-light-bounce"
+        />
       </div>
       <div className="characterContainer">
-        <img src={chocoCharacterRight} alt="Choco" className="chocoCharacter" />
+        <img
+          src={chocoCharacterRight}
+          alt="Choco"
+          className="chocoCharacter animate-light-bounce"
+        />
       </div>
       <img src={bgBottom} alt="Choco" className="chocoBarBottom" />
-      <div className="absolute top-[95%] sm:top-[93%] md:top-[92%] lg:top-[91%] xl:top-[90%] left-1/2 w-full -translate-x-1/2 flex justify-center gap-4 md:gap-6 z-10 ">
+      <div className="absolute top-[95%] sm:top-[93%] md:top-[92%] lg:top-[91%] xl:top-[90%] 2xl:top-auto 2xl:bottom-[4.5vw] left-1/2 w-full -translate-x-1/2 flex justify-center gap-4 md:gap-6 z-10">
         <img
           src={telegram}
           alt="telegram"
-          className="w-4 sm:w-6 md:w-7 xl:w-9 hover:cursor-pointer hover:scale-150 md:hover:scale-125 transition-transform duration-300"
+          className="w-5 sm:w-6 md:w-7 lg:w-10 xl:w-12 2xl:w-14 hover:cursor-pointer hover:scale-150 md:hover:scale-125 transition-transform duration-300"
         />
         <img
           src={x}
           alt="x"
-          className="w-4 sm:w-6 md:w-7 xl:w-9 hover:cursor-pointer hover:scale-150 md:hover:scale-125 transition-transform duration-300"
+          className="w-5 sm:w-6 md:w-7 lg:w-10 xl:w-12 2xl:w-14 hover:cursor-pointer hover:scale-150 md:hover:scale-125 transition-transform duration-300"
         />
         <img
           src={pill}
           alt="pill"
-          className="w-4 sm:w-6 md:w-7 xl:w-9 hover:cursor-pointer hover:scale-150 md:hover:scale-125 transition-transform duration-300"
+          className="w-5 sm:w-6 md:w-7 lg:w-10 xl:w-12 2xl:w-14 hover:cursor-pointer hover:scale-150 md:hover:scale-125 transition-transform duration-300"
         />
       </div>
       <img src={twixLogo} alt="Choco" className="twixLogo" />
