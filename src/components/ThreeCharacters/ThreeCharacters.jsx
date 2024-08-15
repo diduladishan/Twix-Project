@@ -10,13 +10,25 @@ function ThreeCharacters() {
         <img src={bgTop} alt="A layer of chocolate" className="w-full" />
       </div>
       <div className="flex justify-center items-center">
-        <img src={CharacterLeft} alt="Left side character" className="" />
+        <img
+          src={CharacterLeft}
+          alt="Left side character"
+          className="hover:animate-light-bounce"
+        />
       </div>
       <div className="flex justify-center items-center">
-        <img src={CharacterCenter} alt="Left side character" className="" />
+        <img
+          src={CharacterCenter}
+          alt="Left side character"
+          className="hover:animate-light-bounce"
+        />
       </div>
       <div className="flex justify-center items-center">
-        <img src={CharacterRight} alt="Left side character" className="" />
+        <img
+          src={CharacterRight}
+          alt="Left side character"
+          className="hover:animate-light-bounce"
+        />
       </div>
     </div>
   );

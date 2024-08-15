@@ -30,17 +30,17 @@ const Footer = () => {
   }, []);
 
   return (
-    <section className="text-white pb-10 bg-gradient-to-b from-[#6A2B1F] to-[#2F0C06] relative">
-      <div className="w-full absolute -top-[1px] z-20">
+    <section className="text-white bg-gradient-to-b from-[#6A2B1F] to-[#2F0C06] relative pb-[8%]">
+      <div className="w-full -mt-[1px]">
         <img src={bgTop} alt="A layer of chocolate" className="w-full" />
       </div>
       <div
         data-aos="fade-down"
-        className="text-7xl md:text-8xl xl:text-9xl 2xl:text-[150px] font-knewave py-7 drop-shadow-[10px_10px_5px_rgb(0,0,0)] pt-[23%]"
+        className="text-7xl md:text-8xl lg:text-9xl xl:text-[150px] 2xl:text-[180px] font-knewave pt-7 pb-7 lg:pb-8 xl:pb-9 2xl:pb-12 drop-shadow-[10px_10px_5px_rgb(0,0,0)]"
       >
         <h1>$TWIX</h1>
       </div>
-      <ul className="flex justify-center gap-4 md:gap-6">
+      <ul className="flex justify-center gap-4 md:gap-6 xl:gap-8 2xl:gap-10">
         {data.map(({ img, name }, index) => (
           <li
             key={index}
@@ -50,7 +50,7 @@ const Footer = () => {
             <img
               src={img}
               alt={name}
-              className="w-5 md:w-7 xl:w-9 hover:cursor-pointer hover:scale-150 md:hover:scale-125 transition-transform duration-300"
+              className="w-5 sm:w-6 md:w-7 lg:w-10 xl:w-12 2xl:w-14 hover:cursor-pointer hover:scale-150 md:hover:scale-125 transition-transform duration-300"
             />
           </li>
         ))}

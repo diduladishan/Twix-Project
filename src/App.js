@@ -12,10 +12,9 @@ import Banner from "./components/Banner/Banner";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
-      {/* <Section03 /> */}
-      <div className="w-full h-96"></div>
+      <Section03 />
       <Banner />
       <ThreeCharacters />
       <HowToBuy />

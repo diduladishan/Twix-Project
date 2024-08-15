@@ -31,18 +31,16 @@
   z-index: 1;
 }
 
-/* .icons {
-  width: 100%;
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-} */
-
 .twixLogo {
   position: absolute;
   /* bottom: 60px; */
   left: 50%;
   transform: translateX(-50%);
+}
+
+.twixLogo:hover {
+  transform: scale(110%) translateX(-40%);
+  transform-origin: right;
+  transition: transform;
+  transition-duration: 1s;
 }
