@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css"; // Import the CSS file for custom styles
 
-const Navbar = () => {
+const Navbar = ({ onHowToBuyClick }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -19,18 +19,21 @@ const Navbar = () => {
           <a href="#" className="text-white hover:text-gray-400">
             Buy Now
           </a>
-          <a href="#" className="text-white hover:text-gray-400">
+          <a
+            href="#"
+            onClick={onHowToBuyClick}
+            className="text-white hover:text-gray-400"
+          >
             How to Buy
           </a>
           <a
-            href="https://solsea.io/c/668aa9295cb3574cdbe
-02cb9
-"
+            href="https://solsea.io/c/668aa9295cb3574cdbe02cb9"
             className="text-white hover:text-gray-400"
           >
             Collection
           </a>
         </div>
+
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
@@ -53,16 +56,20 @@ const Navbar = () => {
           </button>
         </div>
       </div>
+
       <div className={`md:hidden ${isOpen ? "block" : "hidden"}`}>
         <a href="#" className="block text-white hover:text-gray-400 p-2">
           Buy Now
         </a>
-        <a href="#" className="block text-white hover:text-gray-400 p-2">
+        <a
+          href="#"
+          onClick={onHowToBuyClick}
+          className="block text-white hover:text-gray-400 p-2"
+        >
           How to Buy
         </a>
         <a
-          href="https://solsea.io/c/668aa9295cb3574cdbe
-02cb9"
+          href="https://solsea.io/c/668aa9295cb3574cdbe02cb9"
           className="block text-white hover:text-gray-400 p-2"
         >
           Collection
